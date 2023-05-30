@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Portfolio de Designer - Frontend Mentor</title>
+    <link rel="shortcut icon" href="./src/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+
+<body>
+    <header class="header">
+        <img src="./src/images/logo.svg" alt="Logo Design">
+        <a href="/">Free Consultation</a>
+    </header>
+    <main class="main">
+        <section class="intro">
+            <h1>Design solutions made easy</h1>
+            <p>With over ten years of experience in various design disciplines, I’m your one-stop shop for your design
+                needs.</p>
+            <article class="grid">
+                <div class="graphic">
+                    <h3>Graphic Design</h3>
+                </div>
+                <div class="ui-ux">
+                    <h3>UI/UX</h3>
+                </div>
+                <div class="apps">
+                    <h3>Apps</h3>
+                </div>
+                <div class="photography">
+                    <h3>Photography</h3>
+                </div>
+                <div class="illustrations">
+                    <h3>Illustrations</h3>
+                </div>
+                <div class="motion">
+                    <h3>Motion Graphics</h3>
+                </div>
+            </article>
+        </section>
+        <section class="presentation"> 
+            <img src="./src/images/image-amy.webp" alt="Amy">
+            <div>
+                <h2>I’m Amy, and I’d love to work on your next project</h2>
+                <p>I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations to complete mobile apps. I’m also handy with a camera!</p>
+                <a href="/">Free Consultation</a>
+            </div>
+        </section>
+        <section class="slides">
+            <h2>My Work</h2>
+            <article class="carousel">
+                <img src="./src/images/image-slide-1.jpg" class="picture" alt="abstract">
+                <img src="./src/images/image-slide-2.jpg" class="picture" alt="geometric shapes">
+                <img src="./src/images/image-slide-3.jpg" class="picture" alt="hand holding newspaper with geometric shapes">
+                <img src="./src/images/image-slide-4.jpg" class="picture" alt="graphic design books sitting on records">
+                <img src="./src/images/image-slide-5.jpg" class="picture" alt="hand holding phone with plant and drink in background">
+            </article>
+            <article class="slider-btn">
+                <button onclick="move(1)"><img src="./src/images/icon-arrow-left.svg" alt="arrow-left"></button>
+                <button onclick="move(-1)"><img src="./src/images/icon-arrow-right.svg" alt="arrow-right"></button>
+            </article>
+        </section>
+        <section class="cta">
+            <div>
+                <h1>Book a call with me</h1>
+                <p>I’d love to have a chat to see how I can help you. The best first <br> step is for us to discuss your project during a free consultation. <br> Then we can move forward from there.</p>
+            </div>
+            <a href="/">Free Consultation</a>
+        </section>
+    </main>
+    <footer class="footer">
+        <img src="./src/images/logo.svg" alt="Logo Design">
+        <a href="/">Free Consultation</a>
+    </footer>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>

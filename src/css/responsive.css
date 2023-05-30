@@ -1,0 +1,109 @@
+@media (min-width: 500px) and (max-width: 900px) {
+
+    .header,
+    .footer {
+        padding: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .main .intro {
+        padding: 3%;
+    }
+
+    .grid {
+        grid-template-areas:
+            'graphic graphic ui-ux apps'
+            'graphic graphic illustrations illustrations'
+            'photography photography motion motion';
+    }
+
+    .photography {
+        height: 10rem;
+    }
+
+    .presentation {
+        padding: 5%;
+        padding-left: 0%;
+    }
+
+    .presentation img {
+        width: 50%;
+        margin-left: -0.625rem;
+    }
+
+    .presentation h2 {
+        font-size: 2rem;
+    }
+
+    .cta {
+        gap: 1.875rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .header,
+    .footer {
+        padding: 5%;
+    }
+
+    .main .intro {
+        padding: 5%;
+    }
+
+    .intro h1 {
+        font-size: 2rem;
+    }
+
+    .grid {
+        grid-template-areas:
+            'graphic graphic'
+            'graphic graphic'
+            'ui-ux apps'
+            'illustrations illustrations'
+            'photography photography'
+            'motion motion';
+    }
+
+    .ui-ux,
+    .photography,
+    .motion,
+    .illustrations {
+        height: 9.375rem;
+    }
+
+    .presentation {
+        flex-direction: column;
+        padding: 10% 5%;
+        gap: 3.125rem;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 3.125rem;
+    }
+
+    .presentation img {
+        width: 100%;
+    }
+
+    .presentation h2 {
+        font-size: 2rem;
+    }
+
+    .carousel img {
+        width: 16.875rem;
+        height: 12.5rem;
+    }
+
+    .cta {
+        padding: 10%;
+        margin: 10% 5%;
+        flex-direction: column;
+        gap: 1.875rem;
+        text-align: center;
+    }
+}
